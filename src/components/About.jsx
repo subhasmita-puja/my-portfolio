@@ -132,18 +132,19 @@ export default function About() {
             </div>
           </div>
 
-          {/* Action Buttons */}
+    {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 pt-4 w-full sm:w-auto">
             <motion.button 
-              initial="rest"
-              animate="rest"
-              whileHover="hover"
               className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
             >
               <motion.div 
-                variants={{
-                  rest: { height: ["20%", "50%", "20%"], transition: { repeat: Infinity, duration: 2.5, ease: "easeInOut" } },
-                  hover: { height: "100%", transition: { duration: 0.3 } }
+                animate={{ 
+                  height: ["20%", "100%", "20%"] 
+                }}
+                transition={{ 
+                  repeat: Infinity, 
+                  duration: 2.5, 
+                  ease: "easeInOut" 
                 }}
                 className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-fuchsia-600 to-purple-500 z-0"
               ></motion.div>
@@ -151,15 +152,17 @@ export default function About() {
             </motion.button>
 
             <motion.button 
-              initial="rest"
-              animate="rest"
-              whileHover="hover"
               className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
             >
               <motion.div 
-                variants={{
-                  rest: { height: ["20%", "50%", "20%"], transition: { repeat: Infinity, duration: 2.5, ease: "easeInOut", delay: 0.2 } },
-                  hover: { height: "100%", transition: { duration: 0.3 } }
+                animate={{ 
+                  height: ["20%", "100%", "20%"] 
+                }}
+                transition={{ 
+                  repeat: Infinity, 
+                  duration: 2.5, 
+                  ease: "easeInOut", 
+                  delay: 0.4 
                 }}
                 className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-fuchsia-600 to-purple-500 z-0"
               ></motion.div>
