@@ -72,6 +72,7 @@ export default function About() {
               />
             </Canvas>
           </div>
+          
         </div>
 
         {/* Right Side - Text Content */}
@@ -130,6 +131,7 @@ export default function About() {
                 </svg>
               </a>
             </div>
+            
           </div>
 
     {/* Action Buttons */}
