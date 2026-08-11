@@ -329,3 +329,6 @@ export default function About() {
 }
 
 useGLTF.preload('/models/model.glb');
+
+
+
