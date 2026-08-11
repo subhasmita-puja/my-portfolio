@@ -29,7 +29,7 @@ function Model() {
 
 export default function About() {
   return (
-    <section id="about" className="relative w-full min-h-screen bg-[#0a0a0a] flex items-center overflow-hidden py-12 md:py-20">
+    <section id="about" className="relative w-full min-h-screen bg-[#0a0a0a] flex flex-col justify-center overflow-hidden py-12 md:py-20">
       
       {/* Injecting custom scrollbar styles for the text area */}
       <style>{`
@@ -86,9 +86,7 @@ export default function About() {
             Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500">Subhasmita</span>
           </h1>
 
-    
-
-          {/* SURGICAL FIX: Scrollable Text Area to handle updated text cleanly */}
+          {/* Scrollable Text Area */}
           <div className="text-sm md:text-base text-gray-300 leading-relaxed drop-shadow-md space-y-4 max-h-[250px] sm:max-h-[300px] lg:max-h-[350px] overflow-y-auto pr-3 custom-scrollbar text-left w-full">
             <p>
               Hi, I'm Subhasmita—a Full-Stack MERN Developer who enjoys turning ideas into modern, scalable, and user-friendly digital experiences.
@@ -110,7 +108,7 @@ export default function About() {
             </p>
           </div>
 
-          {/* SURGICAL FIX: Contact & Social Icons */}
+          {/* Contact & Social Icons */}
           <div className="flex flex-col sm:flex-row items-center gap-4 sm:gap-6 pt-2 w-full justify-center lg:justify-start">
             <a href="mailto:subhasmita4602@gmail.com" className="group flex items-center gap-2 text-gray-300 hover:text-fuchsia-400 transition-colors duration-300">
               <svg className="w-5 h-5 sm:w-6 sm:h-6 group-hover:scale-110 transition-transform duration-300" fill="currentColor" viewBox="0 0 24 24">
@@ -134,7 +132,7 @@ export default function About() {
             
           </div>
 
-    {/* Action Buttons */}
+          {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 pt-4 w-full sm:w-auto">
             <motion.button 
               className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
@@ -175,6 +173,157 @@ export default function About() {
         </div>
         
       </div>
+
+      {/* --- SURGICALLY FIXED: Role Cards matching exactly to the provided image --- */}
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mt-16 md:mt-24">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6">
+          
+          {/* Card 1: Software Developer */}
+          <div className="rounded-2xl p-[3px] bg-gradient-to-br from-emerald-400/60 via-[#1a1a2e] to-fuchsia-500/60 hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] transition-all duration-300">
+            <div className="flex flex-col items-center justify-center h-full bg-[#111116] rounded-2xl p-6 md:p-8 aspect-square lg:aspect-auto lg:h-[220px]">
+              <svg className="w-14 h-14 md:w-16 md:h-16 mb-4 drop-shadow-[0_0_12px_rgba(168,85,247,0.3)]" viewBox="0 0 100 100" fill="none">
+                <defs>
+                  <linearGradient id="cubeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#a855f7" />
+                    <stop offset="100%" stopColor="#2dd4bf" />
+                  </linearGradient>
+                  <linearGradient id="cubeGradDark" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#7e22ce" />
+                    <stop offset="100%" stopColor="#0f766e" />
+                  </linearGradient>
+                </defs>
+                {/* Top Cube */}
+                <path d="M50 15 L65 23 L50 31 L35 23 Z" fill="url(#cubeGrad)" />
+                <path d="M35 23 L35 40 L50 48 L50 31 Z" fill="url(#cubeGradDark)" />
+                <path d="M65 23 L65 40 L50 48 L50 31 Z" fill="url(#cubeGrad)" opacity="0.7"/>
+                {/* Left Cube */}
+                <path d="M30 35 L45 43 L30 51 L15 43 Z" fill="url(#cubeGrad)" />
+                <path d="M15 43 L15 60 L30 68 L30 51 Z" fill="url(#cubeGradDark)" />
+                <path d="M45 43 L45 60 L30 68 L30 51 Z" fill="url(#cubeGrad)" opacity="0.7"/>
+                {/* Right Cube */}
+                <path d="M70 35 L85 43 L70 51 L55 43 Z" fill="url(#cubeGrad)" />
+                <path d="M55 43 L55 60 L70 68 L70 51 Z" fill="url(#cubeGradDark)" />
+                <path d="M85 43 L85 60 L70 68 L70 51 Z" fill="url(#cubeGrad)" opacity="0.7"/>
+                {/* Bottom Cube */}
+                <path d="M50 55 L65 63 L50 71 L35 63 Z" fill="url(#cubeGrad)" />
+                <path d="M35 63 L35 80 L50 88 L50 71 Z" fill="url(#cubeGradDark)" />
+                <path d="M65 63 L65 80 L50 88 L50 71 Z" fill="url(#cubeGrad)" opacity="0.7"/>
+              </svg>
+              <h3 className="text-base md:text-lg font-bold text-gray-200 text-center leading-snug tracking-wide">Software<br/>Developer</h3>
+            </div>
+          </div>
+
+          {/* Card 2: Frontend Developer */}
+          <div className="rounded-2xl p-[3px] bg-gradient-to-br from-emerald-400/60 via-[#1a1a2e] to-fuchsia-500/60 hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] transition-all duration-300">
+            <div className="flex flex-col items-center justify-center h-full bg-[#111116] rounded-2xl p-6 md:p-8 aspect-square lg:aspect-auto lg:h-[220px]">
+              <svg className="w-14 h-14 md:w-16 md:h-16 mb-4 drop-shadow-[0_0_12px_rgba(168,85,247,0.3)]" viewBox="0 0 100 100" fill="none">
+                <defs>
+                   <linearGradient id="browserGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+                    <stop offset="0%" stopColor="#a855f7" />
+                    <stop offset="100%" stopColor="#4c1d95" />
+                  </linearGradient>
+                  <linearGradient id="screenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#2dd4bf" />
+                    <stop offset="100%" stopColor="#0f766e" />
+                  </linearGradient>
+                </defs>
+                <rect x="15" y="25" width="70" height="50" rx="6" fill="url(#browserGrad)" />
+                <rect x="20" y="40" width="60" height="30" rx="2" fill="url(#screenGrad)" opacity="0.8" />
+                <circle cx="23" cy="33" r="2.5" fill="#fff" opacity="0.5"/>
+                <circle cx="31" cy="33" r="2.5" fill="#fff" opacity="0.5"/>
+                <circle cx="39" cy="33" r="2.5" fill="#fff" opacity="0.5"/>
+                {/* Node Network */}
+                <circle cx="50" cy="55" r="4.5" fill="#fff" />
+                <circle cx="37" cy="46" r="3" fill="#fff" opacity="0.8"/>
+                <circle cx="63" cy="46" r="3" fill="#fff" opacity="0.8"/>
+                <circle cx="42" cy="64" r="3" fill="#fff" opacity="0.8"/>
+                <circle cx="58" cy="64" r="3" fill="#fff" opacity="0.8"/>
+                <path d="M50 55 L37 46 M50 55 L63 46 M50 55 L42 64 M50 55 L58 64 M37 46 L42 64 M63 46 L58 64" stroke="#fff" strokeWidth="1.5" opacity="0.5"/>
+              </svg>
+              <h3 className="text-base md:text-lg font-bold text-gray-200 text-center leading-snug tracking-wide">Frontend<br/>Developer</h3>
+            </div>
+          </div>
+
+          {/* Card 3: Problem Solving */}
+          <div className="rounded-2xl p-[3px] bg-gradient-to-br from-emerald-400/60 via-[#1a1a2e] to-fuchsia-500/60 hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] transition-all duration-300">
+            <div className="flex flex-col items-center justify-center h-full bg-[#111116] rounded-2xl p-6 md:p-8 aspect-square lg:aspect-auto lg:h-[220px]">
+              <svg className="w-14 h-14 md:w-16 md:h-16 mb-4 drop-shadow-[0_0_12px_rgba(168,85,247,0.3)]" viewBox="0 0 100 100" fill="none">
+                <defs>
+                  <linearGradient id="probGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#2dd4bf" />
+                    <stop offset="100%" stopColor="#0f766e" />
+                  </linearGradient>
+                  <linearGradient id="probGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#a855f7" />
+                    <stop offset="100%" stopColor="#4c1d95" />
+                  </linearGradient>
+                </defs>
+                {/* Top Cube */}
+                <g transform="translate(18, -4)">
+                  <path d="M50 25 L65 33 L50 41 L35 33 Z" fill="url(#probGrad1)" />
+                  <path d="M35 33 L35 50 L50 58 L50 41 Z" fill="url(#probGrad1)" opacity="0.6"/>
+                  <path d="M65 33 L65 50 L50 58 L50 41 Z" fill="url(#probGrad1)" opacity="0.8"/>
+                </g>
+                {/* Bottom Circle/Node */}
+                <g transform="translate(-18, 18)">
+                  <circle cx="75" cy="55" r="16" fill="url(#probGrad2)" />
+                  <circle cx="75" cy="55" r="12" fill="#111116" opacity="0.6" />
+                </g>
+                {/* Swap Arrows */}
+                <path d="M 28 55 A 25 25 0 0 0 52 78" stroke="#a855f7" strokeWidth="3" fill="none" strokeLinecap="round"/>
+                <polygon points="54,78 47,73 47,83" fill="#a855f7" />
+                
+                <path d="M 72 38 A 25 25 0 0 0 48 15" stroke="#2dd4bf" strokeWidth="3" fill="none" strokeLinecap="round"/>
+                <polygon points="46,15 53,10 53,20" fill="#2dd4bf" />
+              </svg>
+              <h3 className="text-base md:text-lg font-bold text-gray-200 text-center leading-snug tracking-wide">Problem<br/>Solving</h3>
+            </div>
+          </div>
+
+          {/* Card 4: Freelancer */}
+          <div className="rounded-2xl p-[3px] bg-gradient-to-br from-emerald-400/60 via-[#1a1a2e] to-fuchsia-500/60 hover:shadow-[0_0_25px_rgba(168,85,247,0.4)] transition-all duration-300">
+            <div className="flex flex-col items-center justify-center h-full bg-[#111116] rounded-2xl p-6 md:p-8 aspect-square lg:aspect-auto lg:h-[220px]">
+              <svg className="w-14 h-14 md:w-16 md:h-16 mb-4 drop-shadow-[0_0_12px_rgba(168,85,247,0.3)]" viewBox="0 0 100 100" fill="none">
+                <defs>
+                   <linearGradient id="freeGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+                    <stop offset="0%" stopColor="#a855f7" />
+                    <stop offset="100%" stopColor="#2dd4bf" />
+                  </linearGradient>
+                </defs>
+                <g transform="translate(50,50)">
+                  {/* Central Gear */}
+                  <circle cx="0" cy="0" r="14" fill="#4c1d95" />
+                  <circle cx="0" cy="0" r="5.5" fill="#111116" />
+                  {/* Gear Teeth */}
+                  <path d="M-4,-17 L4,-17 L5.5,-14 L-5.5,-14 Z" fill="#4c1d95" />
+                  <path d="M-4,17 L4,17 L5.5,14 L-5.5,14 Z" fill="#4c1d95" />
+                  <path d="M-17,-4 L-17,4 L-14,5.5 L-14,-5.5 Z" fill="#4c1d95" />
+                  <path d="M17,-4 L17,4 L14,5.5 L14,-5.5 Z" fill="#4c1d95" />
+                  <path d="M-12,-14 L-7,-17 L-9,-11 Z" fill="#4c1d95" transform="rotate(45)" />
+                  <path d="M12,14 L7,17 L9,11 Z" fill="#4c1d95" transform="rotate(45)" />
+                  
+                  {/* Circuit Nodes & Lines */}
+                  <path d="M0 -19 L0 -34 M-19 0 L-34 0 M19 0 L34 0 M0 19 L0 34 M-14 -14 L-24 -24 M14 14 L24 24 M-14 14 L-24 24 M14 -14 L24 -24" stroke="url(#freeGrad1)" strokeWidth="3" strokeLinecap="round"/>
+                  
+                  {/* Outer Blocks */}
+                  <rect x="-4" y="-40" width="8" height="8" rx="2" fill="#2dd4bf" />
+                  <rect x="-40" y="-4" width="8" height="8" rx="2" fill="#a855f7" />
+                  <rect x="32" y="-4" width="8" height="8" rx="2" fill="#a855f7" />
+                  <rect x="-4" y="32" width="8" height="8" rx="2" fill="#2dd4bf" />
+                  <circle cx="-25" cy="-25" r="4" fill="#a855f7"/>
+                  <circle cx="25" cy="25" r="4" fill="#2dd4bf"/>
+                  <circle cx="-25" cy="25" r="4" fill="#a855f7"/>
+                  <circle cx="25" cy="-25" r="4" fill="#2dd4bf"/>
+                </g>
+              </svg>
+              <h3 className="text-base md:text-lg font-bold text-gray-200 text-center leading-snug tracking-wide">Freelancer</h3>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      {/* --- END OF SURGICAL ADDITION --- */}
+
     </section>
   );
 }
