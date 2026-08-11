@@ -9,9 +9,6 @@ export default function Skills() {
       
       {/* Top Header Section */}
       <div className="text-center mb-12 md:mb-16 z-10 relative">
-        <p className="text-xs sm:text-sm font-medium text-gray-400 tracking-[0.25em] uppercase mb-3">
-          What I have learnt so far
-        </p>
         <h2 className="text-5xl sm:text-6xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500 drop-shadow-[0_0_20px_rgba(217,70,239,0.8)]">
           Skills.
         </h2>
