@@ -11,8 +11,8 @@ const projectData = [
     title: "Guardian Angel – Safety Web App",
     image: "/photos/project-1.png",
     description:
-      "Personal safety platform with real-time location sharing, one-tap and voice-triggered SOS, AI crime reporting, emergency tools, and community safety mapping.",
-    liveLink: "https://guardian-angel-three.vercel.app/",
+  "Personal safety platform with real-time location, SOS alerts, AI crime reporting, and safety mapping.",
+  liveLink: "https://guardian-angel-three.vercel.app/",
     githubLink: "https://github.com/subhasmita-puja/guardian-angel",
   },
   {
@@ -42,6 +42,43 @@ const projectData = [
     liveLink: "https://3-d-gaming-website-sepia.vercel.app/",
     githubLink: "https://github.com/subhasmita-puja/3D-Gaming-Website.git",
   },
+  {
+  id: 5,
+  title: "Dhabaleswar Temple – Freelance Project",
+  image: "/photos/project-5.png",
+  description:
+    "Interactive spiritual website with Odia, English, and Hindi support, 3D animations, custom ॐ cursor, smooth interactions, and responsive design.",
+  liveLink: "https://dhabaleswar-temple.vercel.app/",
+  githubLink: "https://github.com/subhasmita-puja/Dhabaleswar-Temple.git",
+},
+{
+  id: 6,
+  title: "Interactive Birthday Experience",
+  image: "/photos/project-6.png",
+  description:
+    "Interactive birthday experience with personalized messages, music controls, memory gallery, animated lights, confetti, floating hearts, and immersive animations.",
+  liveLink: "https://bdy-nu-three.vercel.app/",
+  githubLink: "https://github.com/subhasmita-puja/bdy.git",
+},
+  {
+  id: 7,
+  title: "HRMS – Human Resource Management System",
+  image: "/photos/project-7.png",
+  description:
+  "HR platform with role-based dashboards, attendance, leave, KYC, payroll, and AI insights.",
+  liveLink: "https://stafrun.com/",
+  githubLink: "#",
+},
+{
+  id: 8,
+  title: "CRM – Customer Relationship Management",
+  image: "/photos/project-8.png",
+  description:
+    "Role-based CRM with team management, productivity tracking, AI face verification, geo-lock, and analytics.",
+  liveLink: "https://staffroute.in/",
+  githubLink: "#",
+},
+
 ];
 
 export default function Projects() {
