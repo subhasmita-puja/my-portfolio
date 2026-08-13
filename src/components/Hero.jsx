@@ -134,7 +134,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-white font-medium text-2xl md:text-3xl mb-3 drop-shadow-md"
           >
-            Hey there 😊
+            Hello 😊
           </motion.p>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-wide drop-shadow-[0_0_20px_rgba(217,70,239,0.8)] leading-snug break-words">
@@ -144,9 +144,9 @@ export default function Hero() {
           <motion.p 
             animate={{ opacity: isVideoPlaying ? 0 : 1 }}
             transition={{ duration: 0.5 }}
-            className="text-base sm:text-lg text-gray-300 mb-10 leading-relaxed drop-shadow-md md:max-w-lg"
+            className="text-base sm:text-lg text-white mb-10 leading-relaxed drop-shadow-md md:max-w-lg"
           >
-            I'm a software developer and here is my Portfolio Website. Here you'll learn about my journey as a software developer.
+           I’m a Full Stack Developer focused on building scalable, high-performance, and engaging web applications. Explore my work, technical expertise, and the projects I’ve built along the way.
           </motion.p>
 
          <motion.div 
@@ -154,8 +154,11 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className={`flex flex-col w-full sm:flex-row gap-5 ${isVideoPlaying ? 'pointer-events-none' : 'pointer-events-auto'}`}
           >
-            <motion.button 
-              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
+            <motion.a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=subhasmita4602@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300 flex items-center justify-center"
             >
               <motion.div 
                 animate={{ 
@@ -169,10 +172,13 @@ export default function Hero() {
                 className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-fuchsia-600 to-purple-500 z-0"
               ></motion.div>
               <span className="relative z-10 text-white font-bold tracking-wider">HIRE Subhasmita</span>
-            </motion.button>
+            </motion.a>
 
-            <motion.button 
-              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
+            <motion.a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300 flex items-center justify-center"
             >
               <motion.div 
                 animate={{ 
@@ -187,7 +193,7 @@ export default function Hero() {
                 className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-fuchsia-600 to-purple-500 z-0"
               ></motion.div>
               <span className="relative z-10 text-white font-bold tracking-wider">Download Resume</span>
-            </motion.button>
+            </motion.a>
           </motion.div>
 
         </motion.div>
