@@ -82,7 +82,7 @@ export default function Footer() {
 
       {/* Full width bottom border and copyright */}
       <div className="w-full border-t border-white/5 pt-6 text-center text-white/40 text-sm">
-        <p>© 2026 Subhasmita Sahoo All rights reserved.</p>
+        <p>© {new Date().getFullYear()} Subhasmita Sahoo All rights reserved.</p>
       </div>
     </footer>
   );
