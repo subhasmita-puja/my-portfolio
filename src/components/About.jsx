@@ -134,8 +134,11 @@ export default function About() {
 
           {/* Action Buttons */}
           <div className="flex flex-col sm:flex-row gap-5 pt-4 w-full sm:w-auto">
-            <motion.button 
-              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
+            <motion.a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noreferrer"
+              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300 flex items-center justify-center"
             >
               <motion.div 
                 animate={{ 
@@ -149,10 +152,13 @@ export default function About() {
                 className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-fuchsia-600 to-purple-500 z-0"
               ></motion.div>
               <span className="relative z-10 text-white font-bold tracking-wider">Download Resume</span>
-            </motion.button>
+            </motion.a>
 
-            <motion.button 
-              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300"
+            <motion.a
+              href="https://mail.google.com/mail/?view=cm&fs=1&to=subhasmita4602@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+              className="group relative overflow-hidden w-full sm:w-auto px-10 py-3.5 bg-black/30 backdrop-blur-sm border-2 border-fuchsia-400/80 rounded-full shadow-[0_0_15px_rgba(192,38,211,0.2)] hover:shadow-[0_0_25px_rgba(192,38,211,0.6)] transition-all duration-300 flex items-center justify-center"
             >
               <motion.div 
                 animate={{ 
@@ -167,7 +173,7 @@ export default function About() {
                 className="absolute inset-x-0 bottom-0 bg-gradient-to-t from-fuchsia-600 to-purple-500 z-0"
               ></motion.div>
               <span className="relative z-10 text-white font-bold tracking-wider">Contact Me</span>
-            </motion.button>
+            </motion.a>
           </div>
 
         </div>
