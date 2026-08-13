@@ -21,13 +21,13 @@ export default function Navbar() {
   }, []);
 
   const navLinks = [
-    { name: "Home", href: "#home" },
+    { name: "Home", href: "#hero" },
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
     { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Services", href: "#services" },
-    { name: "Contact", href: "#contact" },
+    { name: "Contact", href: "#contactMe" },
   ];
 
   return (
@@ -51,7 +51,7 @@ export default function Navbar() {
               />
             </div>
             <a 
-              href="#home" 
+              href="#hero" 
               className="text-[17px] font-medium text-gray-200 hover:text-white transition-colors underline decoration-white/40 underline-offset-4"
             >
               Subhasmita Sahoo
