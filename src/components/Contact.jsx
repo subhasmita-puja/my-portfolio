@@ -121,10 +121,9 @@ export default function Contact() {
         transition={{ duration: 0.6 }}
         className="relative z-10 text-center mb-10"
       >
-        <p className="text-4xl sm:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r text-white/90 tracking-wide">
-          Let&apos;s <span className="text-fuchsia-400">Connect!</span>
-        </p>
-          
+        <h2 className="text-4xl sm:text-5xl lg:text-6xl font-black text-transparent bg-clip-text bg-gradient-to-r text-white/90 tracking-wide">
+  Let&apos;s <span className="text-fuchsia-400">Connect!</span>
+</h2>
       </motion.div>
 
       {/* Glass form container */}
