@@ -146,7 +146,7 @@ export default function Hero() {
             transition={{ duration: 0.5 }}
             className="text-base sm:text-lg text-white mb-10 leading-relaxed drop-shadow-md md:max-w-lg"
           >
-           I’m a Full Stack Developer focused on building scalable, high-performance, and engaging web applications. Explore my work, technical expertise, and the projects I’ve built along the way.
+           I’m a Full Stack Developer focused on building scalable, high-performance web applications and engaging digital experiences. Explore my projects, technical expertise, and development journey.
           </motion.p>
 
          <motion.div 

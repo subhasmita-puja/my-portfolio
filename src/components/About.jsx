@@ -82,9 +82,9 @@ export default function About() {
             Overview
           </p>
 
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-[0_0_20px_rgba(217,70,239,0.8)]">
-            Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500">Subhasmita</span>
-          </h1>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white leading-tight drop-shadow-[0_0_20px_rgba(217,70,239,0.8)]">
+  Hi, I'm <span className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500">Subhasmita</span>
+</h2>
 
           {/* Scrollable Text Area */}
           <div className="text-sm md:text-base text-gray-300 leading-relaxed drop-shadow-md space-y-4 max-h-[250px] sm:max-h-[300px] lg:max-h-[350px] overflow-y-auto pr-3 custom-scrollbar text-left w-full">
