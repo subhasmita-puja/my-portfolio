@@ -145,35 +145,35 @@ export default function Skills() {
               {/* Row 1 */}
               <img src="/photos/HTML.png" alt="HTML" title="HTML" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/CSS.png" alt="CSS" title="CSS" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
-              <img src="/photos/Javascript.svg" alt="JS" title="JS" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
+              <img src="/photos/Javascript.svg" alt="JavaScript" title="JavaScript" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/React.png" alt="React" title="React" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
-              <img src="/photos/NodeJs.svg" alt="Node" title="Node" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
+              <img src="/photos/NodeJs.svg" alt="Node.js" title="Node.js" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               
               {/* Row 2 */}
-              <img src="/photos/next.png" alt="Next" title="Next" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg bg-white p-2 [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]" />
+              <img src="/photos/next.png" alt="Next.js" title="Next.js" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg bg-white p-2 [clip-path:polygon(50%_0%,100%_25%,100%_75%,50%_100%,0%_75%,0%_25%)]" />
               <img src="/photos/Redux.svg" alt="Redux" title="Redux" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/Three.js_Icon.png" alt="Three.js" title="Three.js" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/gsap.jpg" alt="GSAP" title="GSAP" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg rounded" />
-              <img src="/photos/Tailwind.png" alt="Tailwind" title="Tailwind" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
+              <img src="/photos/Tailwind.png" alt="Tailwind CSS" title="Tailwind CSS" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               
               {/* Row 3 */}
               <img src="/photos/Bootstrap.svg" alt="Bootstrap" title="Bootstrap" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/MaterialUI.svg" alt="Material UI" title="Material UI" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
-              <img src="/photos/Express.png" alt="Express" title="Express" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg bg-gray-400 rounded-full" />
+              <img src="/photos/Express.png" alt="Express.js" title="Express.js" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg bg-gray-400 rounded-full" />
               <img src="/photos/Git.svg" alt="Git" title="Git" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
-              <img src="/photos/Typescript.svg" alt="TS" title="TS" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
+              <img src="/photos/Typescript.svg" alt="TypeScript" title="TypeScript" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               
               {/* Row 4 */}
               <img src="/photos/Graphql.svg" alt="GraphQL" title="GraphQL" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/MongoDB.svg" alt="MongoDB" title="MongoDB" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/Bash.svg" alt="Bash" title="Bash" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
-              <img src="/photos/ChartJs.svg" alt="ChartJs" title="ChartJs" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
+              <img src="/photos/ChartJs.svg" alt="Chart.js" title="Chart.js" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/Vercel.svg" alt="Vercel" title="Vercel" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               
               {/* Row 5 - Centered using col-start-2 */}
               <img src="/photos/Docker.svg" alt="Docker" title="Docker" className="col-start-2 w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
               <img src="/photos/Github.svg" alt="GitHub" title="GitHub" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg bg-white rounded-full" />
-              <img src="/photos/WebAPI.png" alt="WebAPI" title="WebAPI" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
+              <img src="/photos/WebAPI.png" alt="Web APIs" title="Web APIs" className="w-10 h-10 sm:w-14 sm:h-14 object-contain hover:scale-125 transition-all duration-300 drop-shadow-lg" />
             </div>
 
             {/* Faded Background Text */}
