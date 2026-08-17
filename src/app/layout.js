@@ -17,6 +17,7 @@ const geistMono = Geist_Mono({
 
 export const metadata = {
   title: "Subhasmita Sahoo | Full Stack Developer",
+
   description:
     "Subhasmita Sahoo is a Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web application development.",
 
@@ -40,6 +41,15 @@ export const metadata = {
   ],
 
   creator: "Subhasmita Sahoo",
+
+  openGraph: {
+    title: "Subhasmita Sahoo | Full Stack Developer",
+    description:
+      "Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web applications.",
+    type: "website",
+    locale: "en_IN",
+    siteName: "Subhasmita Sahoo Portfolio",
+  },
 
   icons: {
     icon: "/userAsset/gif.jpg",
