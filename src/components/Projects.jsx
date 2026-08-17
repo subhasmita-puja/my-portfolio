@@ -67,7 +67,7 @@ const projectData = [
   description:
   "HR platform with role-based dashboards, attendance, leave, KYC, payroll, and AI insights.",
   liveLink: "https://stafrun.com/",
-  githubLink: "#",
+  githubLink: "https://github.com/Somniate-Tech/Demo-HRMS-Frontend.git",
 },
 {
   id: 8,
@@ -76,7 +76,7 @@ const projectData = [
   description:
     "Role-based CRM with team management, productivity tracking, AI face verification, geo-lock, and analytics.",
   liveLink: "https://staffroute.in/",
-  githubLink: "#",
+  githubLink: "https://github.com/Somniate-Tech/employee-tracking-frontend.git",
 },
 
 ];

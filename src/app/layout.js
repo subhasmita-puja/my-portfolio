@@ -62,9 +62,41 @@ export default function RootLayout({ children }) {
       lang="en"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">
-         <ServiceWorkerRegister />
-        {children}
+     <body className="min-h-full flex flex-col">
+  <ServiceWorkerRegister />
+
+  <Script
+    id="person-schema"
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "Person",
+        name: "Subhasmita Sahoo",
+        jobTitle: "Full Stack Developer",
+        description:
+          "Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web application development.",
+        knowsAbout: [
+          "React.js",
+          "Next.js",
+          "Node.js",
+          "Express.js",
+          "MongoDB",
+          "JavaScript",
+          "Tailwind CSS",
+          "Full Stack Development",
+          "Web Development",
+        ],
+        sameAs: [
+          "https://github.com/subhasmita-puja",
+          "https://www.linkedin.com/in/subhasmita-sahoo-puja/",
+        ],
+      }),
+    }}
+  />
+
+  {children}
+  
         <Script
           src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"
           strategy="beforeInteractive"
