@@ -79,7 +79,7 @@ export default function Hero() {
               >
                 <img 
                   src="/photos/photo.png" 
-                  alt="Intro Cover" 
+                 alt="Subhasmita Sahoo, Full Stack Developer"
                   className="w-full h-full object-cover"
                 />
                 
@@ -138,7 +138,13 @@ export default function Hero() {
           </motion.p>
 
           <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-white mb-6 tracking-wide drop-shadow-[0_0_20px_rgba(217,70,239,0.8)] leading-snug break-words">
-            I am &lt;<span ref={typedRef} className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500"></span>/
+            I am &lt;  <span
+    ref={typedRef}
+    className="text-transparent bg-clip-text bg-gradient-to-r from-fuchsia-400 to-purple-500"
+    aria-hidden="true"
+  ></span>
+  /
+  <span className="sr-only">Full Stack Developer</span>
           </h1>
 
           <motion.p 

@@ -112,22 +112,32 @@ self.addEventListener("fetch", (event) => {
    * homepage instead of trying to match the
    * navigation request directly.
    */
-  if (request.mode === "navigate") {
-    event.respondWith(
-      caches.match("/").then((cachedHomePage) => {
-        if (cachedHomePage) {
-          return cachedHomePage;
-        }
+if (request.mode === "navigate") {
+  const url = new URL(request.url);
 
-        // If homepage isn't cached, try the network.
-        return fetch(request).catch(() => {
-          return caches.match("/offline.html");
-        });
-      })
+  // Allow special files to load normally
+  if (url.pathname === "/resume.pdf" || url.pathname === "/robots.txt") {
+    event.respondWith(
+      fetch(request).catch(() => caches.match(request))
     );
 
     return;
   }
+
+  event.respondWith(
+    caches.match("/").then((cachedHomePage) => {
+      if (cachedHomePage) {
+        return cachedHomePage;
+      }
+
+      return fetch(request).catch(() => {
+        return caches.match("/offline.html");
+      });
+    })
+  );
+
+  return;
+}
 
   /*
    * STATIC ASSETS
