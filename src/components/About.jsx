@@ -53,7 +53,9 @@ export default function About() {
         
         {/* Left Side - 3D Model */}
         <div className="order-1 w-full flex justify-center h-[350px] sm:h-[400px] md:h-[500px] lg:h-[600px]">
-          <div className="relative w-full h-full cursor-grab active:cursor-grabbing bg-transparent">
+          <div className="relative w-full h-full cursor-grab active:cursor-grabbing bg-transparent"
+           role="img"
+  aria-label="3D developer workspace model representing software development">
             <Canvas camera={{ position: [0, 0, 5], fov: 50 }}>
               <ambientLight intensity={0.6} />
               <directionalLight position={[10, 10, 5]} intensity={1} />

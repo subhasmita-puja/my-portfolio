@@ -283,7 +283,7 @@ export default function Projects() {
       target="_blank"
       rel="noreferrer"
       className="group relative overflow-hidden w-[36px] h-[36px] bg-black/30 backdrop-blur-sm border border-fuchsia-400/80 rounded-full shadow-[0_0_10px_rgba(192,38,211,0.2)] hover:shadow-[0_0_20px_rgba(192,38,211,0.6)] transition-all duration-300 flex items-center justify-center"
-      title="GitHub Repository"
+     aria-label={`View ${project.title} GitHub repository`}
     >
       <motion.div 
         initial={{ height: "20%" }} 
