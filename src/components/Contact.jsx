@@ -137,36 +137,56 @@ export default function Contact() {
           onSubmit={(e) => e.preventDefault()}
           className="w-full max-w-[240px] sm:max-w-[300px] flex flex-col gap-3 sm:gap-4 relative z-10"
         >
-          <input
-            type="text"
-            name="name"
-            placeholder="Your Name"
-            value={formData.name}
+      <label htmlFor="contact-name" className="sr-only">
+  Your Name
+</label>
+
+<input
+  id="contact-name"
+  type="text"
+  name="name"
+  placeholder="Your Name"
+  value={formData.name}
+  onChange={handleChange}
+            className="w-full h-9 sm:h-10 rounded-xl bg-white/20 border-none px-4 text-white text-sm placeholder:text-white/60 focus:bg-white/30 focus:outline-none transition-all"
+            required
+          />
+        <label htmlFor="contact-email" className="sr-only">
+  Your Email
+</label>
+
+<input
+  id="contact-email"
+  type="email"
+  name="email"
+  placeholder="Your Email"
+  value={formData.email}
             onChange={handleChange}
             className="w-full h-9 sm:h-10 rounded-xl bg-white/20 border-none px-4 text-white text-sm placeholder:text-white/60 focus:bg-white/30 focus:outline-none transition-all"
             required
           />
-          <input
-            type="email"
-            name="email"
-            placeholder="Your Email"
-            value={formData.email}
+       <label htmlFor="contact-subject" className="sr-only">
+  Subject
+</label>
+
+<input
+  id="contact-subject"
+  type="text"
+  name="subject"
+  placeholder="Subject"
+  value={formData.subject}
             onChange={handleChange}
             className="w-full h-9 sm:h-10 rounded-xl bg-white/20 border-none px-4 text-white text-sm placeholder:text-white/60 focus:bg-white/30 focus:outline-none transition-all"
             required
           />
-          <input
-            type="text"
-            name="subject"
-            placeholder="Subject"
-            value={formData.subject}
-            onChange={handleChange}
-            className="w-full h-9 sm:h-10 rounded-xl bg-white/20 border-none px-4 text-white text-sm placeholder:text-white/60 focus:bg-white/30 focus:outline-none transition-all"
-            required
-          />
-          <textarea
-            name="message"
-            placeholder="Message"
+        <label htmlFor="contact-message" className="sr-only">
+  Message
+</label>
+
+<textarea
+  id="contact-message"
+  name="message"
+  placeholder="Message"
             rows={2}
             value={formData.message}
             onChange={handleChange}

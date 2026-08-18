@@ -134,7 +134,7 @@ export default function Skills() {
             
             {/* Background Video Aura */}
            <div className="space2 absolute inset-0 flex justify-center items-center -translate-y-4 sm:-translate-y-6 scale-[1.7] sm:scale-150 mix-blend-screen pointer-events-none">
-              <video autoPlay muted loop className="w-full object-cover [mask-image:radial-gradient(circle_at_center,black_35%,transparent_70%)]">
+              <video autoPlay muted loop aria-hidden="true" className="w-full object-cover [mask-image:radial-gradient(circle_at_center,black_35%,transparent_70%)]">
                 <source src="/videos/skills.webm" type="video/webm" />
               </video>
             </div>

@@ -150,7 +150,7 @@ export default function Services() {
 
                 {/* Top Row: Icon and ID */}
                 <div className="flex items-start gap-4 mb-5 relative z-10">
-                  <div className="w-16 h-16 rounded-2xl border border-fuchsia-500/30 bg-gradient-to-br from-fuchsia-500/10 to-purple-500/10 flex items-center justify-center text-fuchsia-400 shadow-[0_0_15px_rgba(217,70,239,0.2)]">
+                  <div  aria-hidden="true" className="w-16 h-16 rounded-2xl border border-fuchsia-500/30 bg-gradient-to-br from-fuchsia-500/10 to-purple-500/10 flex items-center justify-center text-fuchsia-400 shadow-[0_0_15px_rgba(217,70,239,0.2)]">
                     {service.icon}
                   </div>
                   <div className="flex-1 pt-1">
@@ -183,7 +183,14 @@ export default function Services() {
                     ))}
                   </div>
                   
-                  <button className="flex-shrink-0 w-10 h-10 rounded-full border border-fuchsia-500 bg-fuchsia-500/10 flex items-center justify-center text-white hover:bg-fuchsia-500 hover:shadow-[0_0_15px_rgba(217,70,239,0.5)] transition-all duration-300 self-end sm:self-auto">
+                  <button  type="button"
+  aria-label={`Contact me about ${service.title}`}
+  onClick={() => {
+    document.getElementById("contactMe")?.scrollIntoView({
+      behavior: "smooth",
+      block: "start",
+    });
+  }} className="flex-shrink-0 w-10 h-10 rounded-full border border-fuchsia-500 bg-fuchsia-500/10 flex items-center justify-center text-white hover:bg-fuchsia-500 hover:shadow-[0_0_15px_rgba(217,70,239,0.5)] transition-all duration-300 self-end sm:self-auto">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" className="w-5 h-5">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M4.5 19.5l15-15m0 0H8.25m11.25 0v11.25" />
                     </svg>

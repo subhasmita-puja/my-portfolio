@@ -60,9 +60,9 @@ export default function Experience() {
                 alt="Somniate Tech Logo" 
                 className="h-[45px] object-contain rounded-md bg-white px-2 py-1 mb-2"
               />
-              <span className="text-fuchsia-400 font-semibold tracking-wide text-sm">
+              <time dateTime="2025-11"className="text-fuchsia-400 font-semibold tracking-wide text-sm">
                 Nov 2025 – Present
-              </span>
+              </time>
             </div>
 
             {/* Left Side: Card with 3D Hover Effect */}
@@ -117,9 +117,9 @@ export default function Experience() {
                 alt="Somniate Tech Logo" 
                 className="h-[60px] object-contain rounded-md bg-white px-3 py-2 mb-4"
               />
-              <span className="text-gray-300 font-semibold tracking-wider text-lg drop-shadow-md">
+              <time dateTime="2025-11" className="text-gray-300 font-semibold tracking-wider text-lg drop-shadow-md">
                 Nov 2025 – Present
-              </span>
+              </time>
             </motion.div>
           </div>
 
