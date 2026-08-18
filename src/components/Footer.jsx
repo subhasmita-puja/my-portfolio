@@ -59,7 +59,7 @@ export default function Footer() {
           
           {/* Telegram */}
           <a 
-            href="https://web.telegram.org/k/" 
+           href="https://t.me/puja690"
             target="_blank" 
             rel="noreferrer" 
             aria-label="Telegram Channel" 
