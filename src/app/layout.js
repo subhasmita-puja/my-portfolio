@@ -41,9 +41,13 @@ export const metadata = {
   ],
 
   creator: "Subhasmita Sahoo",
-  
+
 verification: {
   google: "uvgyRtKOe__tFy7btf8_Y-C31MS1jiFpjGthKFR8Eko",
+},
+
+alternates: {
+  canonical: "https://subhasmitaportfolio.netlify.app/",
 },
 
 openGraph: {
