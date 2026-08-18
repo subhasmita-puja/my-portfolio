@@ -1,7 +1,7 @@
 export default function sitemap() {
   return [
     {
-      url: "http://localhost:3000",
+      url: "https://subhasmitaportfolio.netlify.app",
       lastModified: new Date(),
       changeFrequency: "monthly",
       priority: 1,
