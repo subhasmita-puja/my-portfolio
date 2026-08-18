@@ -42,14 +42,21 @@ export const metadata = {
 
   creator: "Subhasmita Sahoo",
 
-  openGraph: {
-    title: "Subhasmita Sahoo | Full Stack Developer",
-    description:
-      "Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web applications.",
-    type: "website",
-    locale: "en_IN",
-    siteName: "Subhasmita Sahoo Portfolio",
-  },
+openGraph: {
+  title: "Subhasmita Sahoo | Full Stack Developer",
+  description:
+    "Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web applications.",
+  type: "website",
+  locale: "en_IN",
+  siteName: "Subhasmita Sahoo Portfolio",
+},
+
+twitter: {
+  card: "summary_large_image",
+  title: "Subhasmita Sahoo | Full Stack Developer",
+  description:
+    "Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web applications.",
+},
 
   icons: {
     icon: "/userAsset/gif.jpg",
