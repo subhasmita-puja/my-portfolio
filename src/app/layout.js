@@ -87,6 +87,7 @@ export default function RootLayout({ children }) {
       __html: JSON.stringify({
         "@context": "https://schema.org",
         "@type": "Person",
+        "@id": "https://subhasmitaportfolio.netlify.app/#person",
         name: "Subhasmita Sahoo",
         jobTitle: "Full Stack Developer",
         description:
@@ -106,6 +107,7 @@ export default function RootLayout({ children }) {
           "https://github.com/subhasmita-puja",
           "https://www.linkedin.com/in/subhasmita-sahoo-puja/",
         ],
+        url: "https://subhasmitaportfolio.netlify.app/",
       }),
     }}
   />
