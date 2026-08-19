@@ -112,6 +112,23 @@ export default function RootLayout({ children }) {
     }}
   />
 
+  <Script
+    id="website-schema"
+    type="application/ld+json"
+    dangerouslySetInnerHTML={{
+      __html: JSON.stringify({
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        "@id": "https://subhasmitaportfolio.netlify.app/#website",
+        url: "https://subhasmitaportfolio.netlify.app/",
+        name: "Subhasmita Sahoo Portfolio",
+        description:
+          "Official portfolio of Subhasmita Sahoo, a Full Stack Developer specializing in React, Next.js, Node.js, MongoDB, and modern web application development.",
+        inLanguage: "en-IN",
+      }),
+    }}
+  />
+  
   {children}
   
         <Script
