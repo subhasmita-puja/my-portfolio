@@ -1,36 +1,195 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 👩‍💻 Subhasmita Sahoo — Full Stack Developer
 
-## Getting Started
+<p align="center">
+  <a href="https://subhasmitaportfolio.netlify.app/">
+    <img src="https://img.shields.io/badge/Portfolio-Live-blue?style=for-the-badge" alt="Portfolio">
+  </a>
+  <a href="https://github.com/subhasmita-puja">
+    <img src="https://img.shields.io/badge/GitHub-Profile-black?style=for-the-badge&logo=github" alt="GitHub">
+  </a>
+  <a href="https://www.linkedin.com/in/subhasmita-sahoo-puja/">
+    <img src="https://img.shields.io/badge/LinkedIn-Profile-blue?style=for-the-badge&logo=linkedin" alt="LinkedIn">
+  </a>
+</p>
 
-First, run the development server:
+## 🚀 About This Portfolio
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+This is my personal developer portfolio showcasing my **skills, projects, professional experience, achievements, and technical journey**.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+The portfolio is designed with a modern, interactive interface and focuses on delivering a smooth user experience while demonstrating my frontend and full-stack development capabilities.
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+* 🎨 Modern and responsive UI
+* 📱 Fully responsive across desktop, tablet, and mobile
+* ⚡ Fast and optimized performance
+* 🧊 Interactive 3D elements
+* 🎬 Smooth animations and transitions
+* 🖱️ Interactive UI effects
+* 📂 Projects showcase
+* 💼 Professional experience section
+* 🛠️ Technical skills section
+* 🏆 Achievements and certifications
+* 📄 Resume section
+* 📬 Contact section
+* 🔍 SEO optimized
+* 📱 PWA / offline-support features
+* 🌐 Production deployment
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
+### Frontend
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* React.js
+* Next.js
+* JavaScript
+* HTML5
+* CSS3
+* Tailwind CSS
+* React Hooks
+* Context API
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### Animation & 3D
 
-## Deploy on Vercel
+* Three.js
+* GSAP
+* Framer Motion
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Backend
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Node.js
+* Express.js
+* MongoDB
+* REST APIs
+* Django REST Framework
+
+### Tools & Platforms
+
+* Git
+* GitHub
+* Vercel
+* Firebase
+* VS Code
+* Postman
+
+## 📌 Featured Projects
+
+### 🛡️ Guardian Angel
+
+GPS + AI-powered safety web application designed to provide users with intelligent safety assistance.
+
+**Tech:** Next.js, React, Tailwind CSS, ShadCN UI, AI, GPS
+
+**Achievement:** Top 5 finalist in the **All-India Women Tech Hackathon 2025**, selected from 700+ submissions.
+
+---
+
+### 🧑‍💼 Employee / HR Management System
+
+A full-stack HR management platform with role-based dashboards and employee management functionality.
+
+**Features:**
+
+* Admin dashboard
+* HR dashboard
+* Employee dashboard
+* Authentication & authorization
+* Employee management
+* Attendance management
+* Leave management
+* KYC management
+* Attendance reports
+* Role-based access control
+
+**Tech:** React.js, Node.js, Express.js, MongoDB, Django REST Framework
+
+---
+
+### 🎮 3D Gaming Website
+
+An interactive gaming-themed website featuring 3D elements, animations, and modern UI interactions.
+
+**Tech:** React.js, Tailwind CSS, Three.js, GSAP
+
+---
+
+### 🛕 Dhabaleswar Temple
+
+A 3D animated website created for the Dhabaleswar Temple experience with multilingual support.
+
+**Features:**
+
+* 3D interactive experience
+* Odia language support
+* Hindi language support
+* English language support
+* Mouse-following interactions
+* Animated UI
+
+**Tech:** React.js, Three.js, GSAP
+
+## 💼 Professional Experience
+
+### Frontend Developer — Somniate Tech
+
+Working on production-grade web applications and modern frontend interfaces.
+
+**Responsibilities include:**
+
+* Developing responsive React applications
+* Building reusable UI components
+* Integrating REST APIs
+* Implementing authentication and authorization
+* Working with dashboards and complex forms
+* Debugging and optimizing frontend applications
+* Collaborating with backend developers
+* Managing Git workflows and deployments
+
+## 🏆 Achievements
+
+* 🥇 Top 5 Finalist — All-India Women Tech Hackathon 2025
+* 🚀 Selected among 700+ hackathon submissions
+* 💻 Full-stack development experience
+* ☁️ Microsoft × AICTE AI/ML & Azure Cloud internship
+* 💼 Infosys full-stack / frontend internship experience
+
+## 📚 Currently Improving
+
+I continuously work on improving my skills in:
+
+* Advanced React.js
+* Next.js
+* Full-stack development
+* Backend architecture
+* REST API design
+* JavaScript DSA
+* System design fundamentals
+* Web performance
+* SEO
+* Cloud deployment
+
+
+## 🌱 What I Believe
+
+> Build. Break. Debug. Learn. Repeat.
+
+I believe good software is not only about writing code. It is about understanding the problem, designing scalable solutions, creating great user experiences, and continuously improving the product.
+
+## 📫 Connect With Me
+
+* 🌐 **Portfolio:** https://subhasmitaportfolio.netlify.app/
+* 💻 **GitHub:** https://github.com/subhasmita-puja
+* 💼 **LinkedIn:** https://www.linkedin.com/in/subhasmita-sahoo-puja/
+* 📧 **Email:** [subhasmita4602@gmail.com](mailto:your-email@example.com)
+
+## ⭐ Support
+
+If you find my projects interesting, consider giving this repository a ⭐.
+
+Thanks for visiting my portfolio! 🚀
+
+---
+
+<p align="center">
+  <b>Made with ❤️ by Subhasmita Sahoo</b>
+</p>
