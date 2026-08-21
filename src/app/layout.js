@@ -1,6 +1,7 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import Script from "next/script";
 import ServiceWorkerRegister from "@/components/ServiceWorkerRegister";
+import VoiceControl from "@/components/VoiceControl";
 import "./globals.css";
 
 
@@ -79,6 +80,7 @@ export default function RootLayout({ children }) {
     >
      <body className="min-h-full flex flex-col">
   <ServiceWorkerRegister />
+  <VoiceControl />
 
   <Script
     id="person-schema"
