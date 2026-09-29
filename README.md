@@ -22,14 +22,6 @@ This website showcases my **projects, technical skills, professional experience,
 
 ---
 
-## 📸 Portfolio Preview
-
-![Portfolio Preview](./Images/portfolio.png)
-
-> **Note:** Keep the screenshot at `Images/portfolio.png` in your repository so GitHub can render it.
-
----
-
 ## ✨ Features
 
 - 🎨 Modern and responsive UI
